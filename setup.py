@@ -11,13 +11,13 @@ else:
 
 setup(
     name='python-package-template',
-    version='1.0.0',
+    version='0.1.0',
     description='Python Package Template',
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT',
     author='Farhan Ahmed',
-    author_email='farhan.ahmed.1@stonybrook.com',
+    author_email='farhaahmed@cs.stonybrook.edu',
     keywords='',
     classifiers=[
         'Programming Language :: Python :: 3',
