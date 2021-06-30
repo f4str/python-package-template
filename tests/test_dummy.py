@@ -1,5 +1,5 @@
-from python_package_template.dummy import placeholder
+from python_package_template.dummy import sigmoid
 
 
 def test_dummy():
-    assert placeholder(0) == 1.0
+    assert sigmoid(0) == 0.5

@@ -1,5 +1,5 @@
 import math
 
 
-def placeholder(x: int) -> float:
-    return math.exp(x)
+def sigmoid(x: float) -> float:
+    return 1 / (1 + math.exp(-x))
