@@ -15,9 +15,9 @@ setup(
     description='Python Package Template',
     long_description=long_description,
     long_description_content_type='text/markdown',
+    url='https://github.com/f4str/python-package-template',
     license='MIT',
     author='Farhan Ahmed',
-    author_email='farhaahmed@cs.stonybrook.edu',
     keywords='',
     classifiers=[
         'Programming Language :: Python :: 3',
@@ -25,8 +25,7 @@ setup(
         'Programming Language :: Python',
     ],
     python_requires='>=3.6',
-    packages=find_packages(),
-    include_package_data=True,
+    packages=find_packages(exclude=['tests', 'tests.*']),
     install_requires=[],
-    extras_require={'dev': ['tox']},
+    extras_require={'dev': ['pytest', 'tox']},
 )
