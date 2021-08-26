@@ -10,7 +10,7 @@ Clone the repository.
 git clone https://github.com/f4str/python-package-template
 ```
 
-Change directories into the folder.
+Change directories into the cloned repository.
 
 ```bash
 cd python-package-template
@@ -29,35 +29,35 @@ Install the dev dependencies using pip.
 pip install -e .[dev]
 ```
 
-## Testing
+## Development
 
-The `tox` library is used to run all tests and code formatting. This is automatically installed with the dev requirements. The available options are as follows:
+The `tox` library is used to run all tests and code formatting. This is automatically installed with the dev requirements. The available options are as follows.
 
-* Run linting checks using `flake8`
+* Run linting checks using `flake8`.
 
     ```bash
     tox -e lint
     ```
 
-* Run type checks using `mypy`
+* Run type checks using `mypy`.
 
     ```bash
     tox -e type
     ```
 
-* Run unit tests `pytest`
+* Run unit tests `pytest`.
 
     ```bash
     tox -e test
     ```
 
-* Run all three of the tests above
+* Run all three of the tests above.
 
     ```bash
     tox
     ```
 
-* Format the code using `black` and `isort` to comply with linting conventions
+* Format the code using `black` and `isort` to comply with linting conventions.
 
     ```bash
     tox -e format
